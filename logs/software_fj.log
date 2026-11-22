@@ -1,0 +1,166 @@
+2026-11-21 14:11:39 | INFO     | ============================================================
+2026-11-21 14:11:39 | INFO     | INICIO DE LA SIMULACIÓN SOFTWARE FJ
+2026-11-21 14:11:39 | INFO     | Registrar cliente 'ana maría torres' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Registrar cliente 'ana maría torres'
+2026-11-21 14:11:39 | WARNING  | Registrar cliente 'Luis Pérez' FALLÓ -> [FJ-101] Correo electrónico inválido: 'luis-correo-invalido'.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Registrar cliente 'Luis Pérez'
+2026-11-21 14:11:39 | WARNING  | Registrar cliente 'Ana Duplicada' FALLÓ -> [FJ-101] Ya existe un cliente con documento 1088123456.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Registrar cliente 'Ana Duplicada'
+2026-11-21 14:11:39 | INFO     | Registrar cliente 'Carlos Gómez' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Registrar cliente 'Carlos Gómez'
+2026-11-21 14:11:39 | WARNING  | Registrar cliente 'Marta Ruiz' FALLÓ -> [FJ-401] Datos de cliente incompletos: Cliente.__init__() missing 2 required positional arguments: 'email' and 'telefono'
+2026-11-21 14:11:39 | WARNING  |    causa original: TypeError("Cliente.__init__() missing 2 required positional arguments: 'email' and 'telefono'")
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Registrar cliente 'Marta Ruiz'
+2026-11-21 14:11:39 | INFO     | Crear servicio 'sala' 'Sala Innovación' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Innovación'
+2026-11-21 14:11:39 | WARNING  | Crear servicio 'sala' 'Sala Fantasma' FALLÓ -> [FJ-201] Capacidad de sala inválida: -5.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Fantasma'
+2026-11-21 14:11:39 | INFO     | Crear servicio 'equipo' 'Portátil Pro' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'equipo' 'Portátil Pro'
+2026-11-21 14:11:39 | INFO     | Crear servicio 'asesoria' 'Asesoría Cloud' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'asesoria' 'Asesoría Cloud'
+2026-11-21 14:11:39 | WARNING  | Crear servicio 'drone' 'Drone' FALLÓ -> [FJ-201] Tipo de servicio 'drone' no existe. Use: sala, equipo, asesoria.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'drone' 'Drone'
+2026-11-21 14:11:39 | INFO     | Crear servicio 'sala' 'Sala Mantenimiento' OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Mantenimiento'
+2026-11-21 14:11:39 | INFO     | Crear reserva (CLI-001 -> SRV-001, 3 h) OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-001, 3 h)
+2026-11-21 14:11:39 | INFO     | Reserva RES-001 confirmada.
+2026-11-21 14:11:39 | INFO     | Confirmar reserva RES-001 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Confirmar reserva RES-001
+2026-11-21 14:11:39 | INFO     | Reserva RES-001 procesada. Costo total: $192,185.00
+2026-11-21 14:11:39 | DEBUG    | Intento de procesamiento de RES-001 finalizado (estado: Procesada).
+2026-11-21 14:11:39 | INFO     | Procesar reserva RES-001 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-001
+2026-11-21 14:11:39 | INFO     | Crear reserva (CLI-002 -> SRV-002, 24 h) OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-002, 24 h)
+2026-11-21 14:11:39 | INFO     | Reserva RES-002 confirmada.
+2026-11-21 14:11:39 | INFO     | Confirmar reserva RES-002 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Confirmar reserva RES-002
+2026-11-21 14:11:39 | INFO     | Reserva RES-002 procesada. Costo total: $215,913.60
+2026-11-21 14:11:39 | DEBUG    | Intento de procesamiento de RES-002 finalizado (estado: Procesada).
+2026-11-21 14:11:39 | INFO     | Procesar reserva RES-002 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-002
+2026-11-21 14:11:39 | INFO     | Crear reserva (CLI-001 -> SRV-003, 2 h) OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-003, 2 h)
+2026-11-21 14:11:39 | INFO     | Reserva RES-003 confirmada.
+2026-11-21 14:11:39 | INFO     | Confirmar reserva RES-003 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Confirmar reserva RES-003
+2026-11-21 14:11:39 | INFO     | Reserva RES-003 procesada. Costo total: $267,750.00
+2026-11-21 14:11:39 | DEBUG    | Intento de procesamiento de RES-003 finalizado (estado: Procesada).
+2026-11-21 14:11:39 | INFO     | Procesar reserva RES-003 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-003
+2026-11-21 14:11:39 | WARNING  | Crear reserva (CLI-001 -> SRV-001, 20 h) FALLÓ -> [FJ-301] Parámetros de reserva inválidos: Sala Innovación: la duración debe estar entre 1 y 8 horas (recibido 20).
+2026-11-21 14:11:39 | WARNING  |    causa original: ServicioInvalidoError('Sala Innovación: la duración debe estar entre 1 y 8 horas (recibido 20).')
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-001, 20 h)
+2026-11-21 14:11:39 | WARNING  | Crear reserva (CLI-002 -> SRV-001, 2 h) FALLÓ -> [FJ-301] Parámetros de reserva inválidos: Sala Innovación: asistentes (50) exceden la capacidad (10).
+2026-11-21 14:11:39 | WARNING  |    causa original: ServicioInvalidoError('Sala Innovación: asistentes (50) exceden la capacidad (10).')
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-001, 2 h)
+2026-11-21 14:11:39 | WARNING  | Crear reserva (CLI-002 -> SRV-004, 2 h) FALLÓ -> [FJ-202] El servicio 'Sala Mantenimiento' no está disponible.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-004, 2 h)
+2026-11-21 14:11:39 | WARNING  | Crear reserva (CLI-999 -> SRV-001, 2 h) FALLÓ -> [FJ-101] Cliente 'CLI-999' no existe.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-999 -> SRV-001, 2 h)
+2026-11-21 14:11:39 | INFO     | Crear reserva (CLI-002 -> SRV-003, 1 h) OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-003, 1 h)
+2026-11-21 14:11:39 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-302] No se puede procesar RES-004: debe estar confirmada (actual 'Pendiente').
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 14:11:39 | INFO     | Reserva RES-004 confirmada.
+2026-11-21 14:11:39 | INFO     | Confirmar reserva RES-004 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Confirmar reserva RES-004
+2026-11-21 14:11:39 | DEBUG    | Intento de procesamiento de RES-004 finalizado (estado: Confirmada).
+2026-11-21 14:11:39 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-301] No fue posible procesar RES-004: Descuento total excesivo: 60% (máximo 50 %).
+2026-11-21 14:11:39 | WARNING  |    causa original: CalculoInconsistenteError('Descuento total excesivo: 60% (máximo 50 %).')
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 14:11:39 | DEBUG    | Intento de procesamiento de RES-004 finalizado (estado: Confirmada).
+2026-11-21 14:11:39 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-301] No fue posible procesar RES-004: Cupón inválido: 'NOEXISTE'.
+2026-11-21 14:11:39 | WARNING  |    causa original: ServicioInvalidoError("Cupón inválido: 'NOEXISTE'.")
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 14:11:39 | INFO     | Reserva RES-004 cancelada. Motivo: El cliente cambió de planes
+2026-11-21 14:11:39 | INFO     | Cancelar reserva RES-004 OK
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Cancelar reserva RES-004
+2026-11-21 14:11:39 | WARNING  | Confirmar reserva RES-004 FALLÓ -> [FJ-302] No se puede confirmar RES-004: estado actual 'Cancelada'.
+2026-11-21 14:11:39 | DEBUG    | Operación finalizada: Confirmar reserva RES-004
+2026-11-21 14:11:39 | INFO     | FIN DE LA SIMULACIÓN (el sistema se mantuvo estable)
+2026-11-21 21:13:00 | INFO     | ============================================================
+2026-11-21 21:13:00 | INFO     | INICIO DE LA SIMULACIÓN SOFTWARE FJ
+2026-11-21 21:13:00 | INFO     | Registrar cliente 'ana maría torres' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Registrar cliente 'ana maría torres'
+2026-11-21 21:13:00 | WARNING  | Registrar cliente 'Luis Pérez' FALLÓ -> [FJ-101] Correo electrónico inválido: 'luis-correo-invalido'.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Registrar cliente 'Luis Pérez'
+2026-11-21 21:13:00 | WARNING  | Registrar cliente 'Ana Duplicada' FALLÓ -> [FJ-101] Ya existe un cliente con documento 1088123456.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Registrar cliente 'Ana Duplicada'
+2026-11-21 21:13:00 | INFO     | Registrar cliente 'Carlos Gómez' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Registrar cliente 'Carlos Gómez'
+2026-11-21 21:13:00 | WARNING  | Registrar cliente 'Marta Ruiz' FALLÓ -> [FJ-401] Datos de cliente incompletos: Cliente.__init__() missing 2 required positional arguments: 'email' and 'telefono'
+2026-11-21 21:13:00 | WARNING  |    causa original: TypeError("Cliente.__init__() missing 2 required positional arguments: 'email' and 'telefono'")
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Registrar cliente 'Marta Ruiz'
+2026-11-21 21:13:00 | INFO     | Crear servicio 'sala' 'Sala Innovación' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Innovación'
+2026-11-21 21:13:00 | WARNING  | Crear servicio 'sala' 'Sala Fantasma' FALLÓ -> [FJ-201] Capacidad de sala inválida: -5.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Fantasma'
+2026-11-21 21:13:00 | INFO     | Crear servicio 'equipo' 'Portátil Pro' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'equipo' 'Portátil Pro'
+2026-11-21 21:13:00 | INFO     | Crear servicio 'asesoria' 'Asesoría Cloud' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'asesoria' 'Asesoría Cloud'
+2026-11-21 21:13:00 | WARNING  | Crear servicio 'drone' 'Drone' FALLÓ -> [FJ-201] Tipo de servicio 'drone' no existe. Use: sala, equipo, asesoria.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'drone' 'Drone'
+2026-11-21 21:13:00 | INFO     | Crear servicio 'sala' 'Sala Mantenimiento' OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear servicio 'sala' 'Sala Mantenimiento'
+2026-11-21 21:13:00 | INFO     | Crear reserva (CLI-001 -> SRV-001, 3 h) OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-001, 3 h)
+2026-11-21 21:13:00 | INFO     | Reserva RES-001 confirmada.
+2026-11-21 21:13:00 | INFO     | Confirmar reserva RES-001 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Confirmar reserva RES-001
+2026-11-21 21:13:00 | INFO     | Reserva RES-001 procesada. Costo total: $192,185.00
+2026-11-21 21:13:00 | DEBUG    | Intento de procesamiento de RES-001 finalizado (estado: Procesada).
+2026-11-21 21:13:00 | INFO     | Procesar reserva RES-001 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-001
+2026-11-21 21:13:00 | INFO     | Crear reserva (CLI-002 -> SRV-002, 24 h) OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-002, 24 h)
+2026-11-21 21:13:00 | INFO     | Reserva RES-002 confirmada.
+2026-11-21 21:13:00 | INFO     | Confirmar reserva RES-002 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Confirmar reserva RES-002
+2026-11-21 21:13:00 | INFO     | Reserva RES-002 procesada. Costo total: $215,913.60
+2026-11-21 21:13:00 | DEBUG    | Intento de procesamiento de RES-002 finalizado (estado: Procesada).
+2026-11-21 21:13:00 | INFO     | Procesar reserva RES-002 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-002
+2026-11-21 21:13:00 | INFO     | Crear reserva (CLI-001 -> SRV-003, 2 h) OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-003, 2 h)
+2026-11-21 21:13:00 | INFO     | Reserva RES-003 confirmada.
+2026-11-21 21:13:00 | INFO     | Confirmar reserva RES-003 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Confirmar reserva RES-003
+2026-11-21 21:13:00 | INFO     | Reserva RES-003 procesada. Costo total: $267,750.00
+2026-11-21 21:13:00 | DEBUG    | Intento de procesamiento de RES-003 finalizado (estado: Procesada).
+2026-11-21 21:13:00 | INFO     | Procesar reserva RES-003 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-003
+2026-11-21 21:13:00 | WARNING  | Crear reserva (CLI-001 -> SRV-001, 20 h) FALLÓ -> [FJ-301] Parámetros de reserva inválidos: Sala Innovación: la duración debe estar entre 1 y 8 horas (recibido 20).
+2026-11-21 21:13:00 | WARNING  |    causa original: ServicioInvalidoError('Sala Innovación: la duración debe estar entre 1 y 8 horas (recibido 20).')
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-001 -> SRV-001, 20 h)
+2026-11-21 21:13:00 | WARNING  | Crear reserva (CLI-002 -> SRV-001, 2 h) FALLÓ -> [FJ-301] Parámetros de reserva inválidos: Sala Innovación: asistentes (50) exceden la capacidad (10).
+2026-11-21 21:13:00 | WARNING  |    causa original: ServicioInvalidoError('Sala Innovación: asistentes (50) exceden la capacidad (10).')
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-001, 2 h)
+2026-11-21 21:13:00 | WARNING  | Crear reserva (CLI-002 -> SRV-004, 2 h) FALLÓ -> [FJ-202] El servicio 'Sala Mantenimiento' no está disponible.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-004, 2 h)
+2026-11-21 21:13:00 | WARNING  | Crear reserva (CLI-999 -> SRV-001, 2 h) FALLÓ -> [FJ-101] Cliente 'CLI-999' no existe.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-999 -> SRV-001, 2 h)
+2026-11-21 21:13:00 | INFO     | Crear reserva (CLI-002 -> SRV-003, 1 h) OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Crear reserva (CLI-002 -> SRV-003, 1 h)
+2026-11-21 21:13:00 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-302] No se puede procesar RES-004: debe estar confirmada (actual 'Pendiente').
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 21:13:00 | INFO     | Reserva RES-004 confirmada.
+2026-11-21 21:13:00 | INFO     | Confirmar reserva RES-004 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Confirmar reserva RES-004
+2026-11-21 21:13:00 | DEBUG    | Intento de procesamiento de RES-004 finalizado (estado: Confirmada).
+2026-11-21 21:13:00 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-301] No fue posible procesar RES-004: Descuento total excesivo: 60% (máximo 50 %).
+2026-11-21 21:13:00 | WARNING  |    causa original: CalculoInconsistenteError('Descuento total excesivo: 60% (máximo 50 %).')
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 21:13:00 | DEBUG    | Intento de procesamiento de RES-004 finalizado (estado: Confirmada).
+2026-11-21 21:13:00 | WARNING  | Procesar reserva RES-004 FALLÓ -> [FJ-301] No fue posible procesar RES-004: Cupón inválido: 'NOEXISTE'.
+2026-11-21 21:13:00 | WARNING  |    causa original: ServicioInvalidoError("Cupón inválido: 'NOEXISTE'.")
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Procesar reserva RES-004
+2026-11-21 21:13:00 | INFO     | Reserva RES-004 cancelada. Motivo: El cliente cambió de planes
+2026-11-21 21:13:00 | INFO     | Cancelar reserva RES-004 OK
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Cancelar reserva RES-004
+2026-11-21 21:13:00 | WARNING  | Confirmar reserva RES-004 FALLÓ -> [FJ-302] No se puede confirmar RES-004: estado actual 'Cancelada'.
+2026-11-21 21:13:00 | DEBUG    | Operación finalizada: Confirmar reserva RES-004
+2026-11-21 21:13:00 | INFO     | FIN DE LA SIMULACIÓN (el sistema se mantuvo estable)
